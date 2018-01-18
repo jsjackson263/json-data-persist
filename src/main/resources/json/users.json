@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "name": "FirstName1 LastName1",
+    "username": "name1",
+    "email": "name1@example.com",
+    "address": {
+      "street": "Address Line1",
+      "suite": "Suite 111",
+      "city": "City1",
+      "zipcode": "11111-1111",
+      "geo": {
+        "lat": "-11.1111",
+        "lng": "11.1111"
+      }
+    },
+    "phone": "1-111-111-1111 x11111",
+    "website": "site1.com",
+    "company": {
+      "name": "Company Number1",
+      "catchPhrase": "Does my bum look big in this?",
+      "bs": "completely productivate premier e-services"
+    }
+  },
+  
+  {
+    "id": 2,
+    "name": "FirstName2 LastName2",
+    "username": "name2",
+    "email": "name2@example.com",
+    "address": {
+      "street": "Address Line2",
+      "suite": "Suite 222",
+      "city": "City2",
+      "zipcode": "22222-2222",
+      "geo": {
+        "lat": "-22.2222",
+        "lng": "22.2222"
+      }
+    },
+    "phone": "2-222-222-2222 x22222",
+    "website": "site2.com",
+    "company": {
+      "name": "Company Number2",
+      "catchPhrase": "Cheap as chips",
+      "bs": "enthusiastically coordinate inexpensive applications"
+    }
+  },
+  
+  {
+    "id": 3,
+    "name": "FirstName3 LastName3",
+    "username": "name3",
+    "email": "name3@example.com",
+    "address": {
+      "street": "Address Line3",
+      "suite": "Suite 333",
+      "city": "City3",
+      "zipcode": "33333-3333",
+      "geo": {
+        "lat": "-33.3333",
+        "lng": "33.3333"
+      }
+    },
+    "phone": "3-333-333-3333 x33333",
+    "website": "site3.com",
+    "company": {
+      "name": "Company Number3",
+      "catchPhrase": "Listen Very Carefully, I Shall Say This Only Once",
+      "bs": "energistically facilitate optimal expertise"
+    }
+  },
+  
+  {
+    "id": 4,
+    "name": "FirstName4 LastName4",
+    "username": "name4",
+    "email": "name4@example.com",
+    "address": {
+      "street": "Address Line4",
+      "suite": "Suite 444",
+      "city": "City4",
+      "zipcode": "44444-4444",
+      "geo": {
+        "lat": "-44.4444",
+        "lng": "44.4444"
+      }
+    },
+    "phone": "4-444-444-4444 x44444",
+    "website": "site4.com",
+    "company": {
+      "name": "Company Number4",
+      "catchPhrase": "Is it cos I is Black?",
+      "bs": "phosfluorescently repurpose client-based internal or 'organic' sources"
+    }
+  },
+  
+  {
+    "id": 5,
+    "name": "FirstName5 LastName5",
+    "username": "name5",
+    "email": "name5@example.com",
+    "address": {
+      "street": "Address Line5",
+      "suite": "Suite 555",
+      "city": "City5",
+      "zipcode": "55555-5555",
+      "geo": {
+        "lat": "-55.5555",
+        "lng": "55.5555"
+      }
+    },
+    "phone": "5-555-555-5555 x55555",
+    "website": "site5.com",
+    "company": {
+      "name": "Company Number5",
+      "catchPhrase": "Hello, sweetie.",
+      "bs": "credibly deliver global materials"
+    }
+  },
+  
+  {
+    "id": 6,
+    "name": "FirstName6 LastName6",
+    "username": "name6",
+    "email": "name6@example.com",
+    "address": {
+      "street": "Address Line6",
+      "suite": "Suite 666",
+      "city": "City6",
+      "zipcode": "66666-6666",
+      "geo": {
+        "lat": "-66.6666",
+        "lng": "66.6666"
+      }
+    },
+    "phone": "6-666-666-6666 x66666",
+    "website": "site6.com",
+    "company": {
+      "name": "Company Number6",
+      "catchPhrase": "You might very well think that; I couldn't possibly comment",
+      "bs": "credibly deliver global materials"
+    }
+  },
+  
+  {
+    "id": 7,
+    "name": "FirstName7 LastName7",
+    "username": "name7",
+    "email": "name7@example.com",
+    "address": {
+      "street": "Address Line7",
+      "suite": "Suite 777",
+      "city": "City7",
+      "zipcode": "77777-7777",
+      "geo": {
+        "lat": "-77.7777",
+        "lng": "77.7777"
+      }
+    },
+    "phone": "7-777-777-7777 x77777",
+    "website": "site7.com",
+    "company": {
+      "name": "Company Number7",
+      "catchPhrase": "Is that your final answer?",
+      "bs": "intrinsically visualize web-enabled technologies"
+    }
+  }
+  
+]
