@@ -9,11 +9,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 import info.jsjackson.domain.User;
 import info.jsjackson.service.UserService;
+import lombok.extern.slf4j.Slf4j;
 
 /**
  * @author josan
  *
  */
+@Slf4j
 @RestController
 @RequestMapping("/users")
 public class UserController {
@@ -26,6 +28,8 @@ public class UserController {
 	
 	@GetMapping("/list")
 	public Iterable<User> list() {
-		return userService.list();
+		Iterable<User> userList = userService.list();
+		log.debug("Saving the following users: " + userList.toString());
+		return userList;
 	}
 }

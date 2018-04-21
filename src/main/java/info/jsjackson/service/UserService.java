@@ -9,12 +9,14 @@ import org.springframework.stereotype.Service;
 
 import info.jsjackson.domain.User;
 import info.jsjackson.repository.UserRepository;
+import lombok.extern.slf4j.Slf4j;
 
 /**
  * @author josan
  *
  */
 @Service
+@Slf4j
 public class UserService {
 
 	private UserRepository userRepository;
@@ -33,7 +35,9 @@ public class UserService {
 	 * @return users
 	 */
 	public Iterable<User> save(List<User> users) {
-		return userRepository.save(users);
+		//return userRepository.save(users);
+		log.debug("Saving the following users: " + users.toString());
+		return userRepository.saveAll(users);
 		
 	}
 }
