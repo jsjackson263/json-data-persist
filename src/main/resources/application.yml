@@ -18,6 +18,13 @@ endpoints:
   metrics:
     enabled: true
     sensitive: false
+    
+  env:
+    enabled: true
+    sensitive: false
+
+#management.endpoint.jolokia.enabled: false
+
 
 #prettify the json output
 spring:
