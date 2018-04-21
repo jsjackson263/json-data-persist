@@ -1,0 +1,32 @@
+server.port: 9898 
+
+endpoints:
+  beans:
+    id: springbeans
+    sensitive: false
+    enabled: true
+    
+  health:
+   # id: myHealthCheck
+    enabled: true
+    sensitive: false
+    
+  mappings:
+    enabled: true
+    sensitive: false
+    
+  metrics:
+    enabled: true
+    sensitive: false
+
+#prettify the json output
+spring:
+  jackson:
+    serialization:
+      INDENT_OUTPUT: true
+  h2:
+    console:
+      enabled: true
+
+      
+   
