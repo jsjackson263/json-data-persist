@@ -35,9 +35,9 @@ public class UserService {
 	 * @return users
 	 */
 	public Iterable<User> save(List<User> users) {
-		//return userRepository.save(users);
 		log.debug("Saving the following users: " + users.toString());
-		return userRepository.saveAll(users);
+		return userRepository.save(users);
+		
 		
 	}
 }
