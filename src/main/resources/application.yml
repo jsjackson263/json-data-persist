@@ -1,33 +1,49 @@
-server.port: 9904 
+server:
+  port: 9902 
+
+endpoints:
+  beans:
+    id: springbeans
+    sensitive: false
+    enabled: true
+    
+  health:
+   # id: myHealthCheck
+    enabled: true
+    sensitive: false
+    
+  mappings:
+    enabled: true
+    sensitive: false
+    
+  metrics:
+    enabled: true
+    sensitive: false
+    
+  info:
+    enabled: true
+    sensitive: false
+  
+  env:
+    enabled: true
+    sensitive: false
+    keys-to-sanitize: local.server.port, java.vm.name, user.dir, user.home
+
+  jolokia:
+    enabled: true
+    sensitive: false
 
 management:
-  endpoints:
-    web:
-      exposure:
-        include: health,info, beans, env, mappings, metrics, jolokia, heapdump, configprops, loggers 
-          
-  endpoint:
-    health:
-      show-details: ALWAYS
-      #show-details: WHEN_AUTHORIZED
-    env:
-      keys-to-sanitize: java.vm.name, local.server.port
+  security:
+    enabled: false
+  
     
-    jolokia:
-      config:
-        listenForHttpService: true
-        debug: true
-        
-
 #prettify the json output
 spring:
   jackson:
     serialization:
       indent-output: true
- 
-  h2:
-    console:
-      enabled: true
-
+  boot:
+    admin:
+      url: http://localhost:9999
       
-   
